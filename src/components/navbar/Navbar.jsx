@@ -5,7 +5,7 @@ import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
+ 
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
@@ -13,6 +13,7 @@ const Navbar = () => {
           <img src={logo} alt="logo"/> 
         </div>
         <div className="gpt3__navbar-links_container">
+          <p><a href="https://www.biblegateway.com/passage/?search=Revelation+3%3A2-3&version=NIV" target="_blank">"Wake Up & Repent"</a></p>
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">What is GPT3?</a></p>
           <p><a href="#possibility">Open AI</a></p>
@@ -31,6 +32,7 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
+            <p><a href="https://www.biblegateway.com/passage/?search=Revelation+3%3A2-3&version=NIV" target="_blank">"Wake Up & Repent"</a></p>
             <p><a href="#home">Home</a></p>
             <p><a href="#wgpt3">What is GPT3?</a></p>
             <p><a href="#possibility">Open AI</a></p>
