@@ -12,7 +12,9 @@ const Header = () => {
 
         <div className="gpt3__header-content__input">
           <input type="email" placeholder="Your Email Address" />
-          <button type="button">Get Started</button>
+          <a href="https://auth0.openai.com/u/signup/identifier?state=hKFo2SBpdEJYdHJYYVdMM09hWVNDRWZPUnFqeXM2c29hV0R5ZaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDhaTmdSWDVYcXdkM2ZfaVNFd09maHhtaS1uRE16dV9xo2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc" target="_blank" rel="noreferrer">
+            <button type="button">Get Started</button>
+          </a>
         </div>
 
         <div className="gpt3__header-content__people">
@@ -28,3 +30,5 @@ const Header = () => {
 }
 
 export default Header
+
+

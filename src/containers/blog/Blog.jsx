@@ -18,8 +18,8 @@ const Blog = () => (
         <a href="https://openai.com/gpt-4" target="_blank" rel="noreferrer">
           <Article imgUrl={blog02} date="Next Level" text="GPT-4 is the most advanced system with OpenAI, producing safer and more useful responses"></Article>
         </a>
-        <a href="https://openai.com/blog/chatgpt-can-now-see-hear-and-speak" target="_blank" rel="noreferrer">
-          <Article imgUrl={blog03} date="September 25, 2023" text="ChatGPT can now see, hear, and speak"></Article>
+        <a href="https://openai.com/pricing" target="_blank" rel="noreferrer">
+          <Article imgUrl={blog03} date="Pricing" text="Only pay for what you use."></Article>
         </a>
         <a href="https://openai.com/safety" target="_blank" rel="noreferrer">
           <Article imgUrl={blog04} date="Safety" text="Developing safe & responsible AI"></Article>
