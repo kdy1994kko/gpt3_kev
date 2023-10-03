@@ -5,7 +5,7 @@ import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
+ 
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
@@ -39,10 +39,6 @@ const Navbar = () => {
             <p><a href="#possibility">Open AI</a></p>
             <p><a href="#features">Case Studies</a></p>
             <p><a href="#blog">Library</a></p>
-          </div>
-          <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
           </div>
         </div>
         )}  
